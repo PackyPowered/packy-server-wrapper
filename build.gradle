@@ -6,7 +6,7 @@ group 'cc.sfclub'
 version '0.1.0'
 
 repositories {
-    mavenCentral()
+    maven { url = "https://maven.aliyun.com/repository/central" }
 }
 
 dependencies {
