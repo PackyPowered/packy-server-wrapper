@@ -10,6 +10,9 @@ repositories {
 }
 
 dependencies {
+    compile 'io.github.openfeign:feign-okhttp:10.11'
+    compile 'io.github.openfeign:feign-gson:10.11'
+    compile 'io.github.openfeign:feign-slf4j:10.11'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
